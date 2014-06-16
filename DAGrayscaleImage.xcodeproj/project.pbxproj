@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775ED89E193BE67B005903BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775ED89D193BE67B005903BD /* Foundation.framework */; };
+		775ED8A0193BE67B005903BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775ED89F193BE67B005903BD /* CoreGraphics.framework */; };
+		775ED8A2193BE67B005903BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775ED8A1193BE67B005903BD /* UIKit.framework */; };
+		775ED8A8193BE67B005903BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775ED8A6193BE67B005903BD /* InfoPlist.strings */; };
+		775ED8AA193BE67B005903BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775ED8A9193BE67B005903BD /* main.m */; };
+		775ED8AE193BE67B005903BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775ED8AD193BE67B005903BD /* AppDelegate.m */; };
+		775ED8B0193BE67B005903BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775ED8AF193BE67B005903BD /* Images.xcassets */; };
+		775ED8CF193BE6D2005903BD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775ED8CD193BE6D2005903BD /* TestViewController.m */; };
+		775ED8D0193BE6D2005903BD /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775ED8CE193BE6D2005903BD /* TestViewController.xib */; };
+		775ED8D3193BE71C005903BD /* DAGrayscaleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 775ED8D2193BE71C005903BD /* DAGrayscaleImageView.m */; };
+		775ED8D7193BF08F005903BD /* TestImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 775ED8D6193BF08F005903BD /* TestImage@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		775ED89A193BE67B005903BD /* DAGrayscaleImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAGrayscaleImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775ED89D193BE67B005903BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		775ED89F193BE67B005903BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		775ED8A1193BE67B005903BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		775ED8A5193BE67B005903BD /* DAGrayscaleImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DAGrayscaleImage-Info.plist"; sourceTree = "<group>"; };
+		775ED8A7193BE67B005903BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		775ED8A9193BE67B005903BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		775ED8AB193BE67B005903BD /* DAGrayscaleImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DAGrayscaleImage-Prefix.pch"; sourceTree = "<group>"; };
+		775ED8AC193BE67B005903BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		775ED8AD193BE67B005903BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		775ED8AF193BE67B005903BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		775ED8CC193BE6D2005903BD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		775ED8CD193BE6D2005903BD /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		775ED8CE193BE6D2005903BD /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		775ED8D1193BE71C005903BD /* DAGrayscaleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAGrayscaleImageView.h; sourceTree = "<group>"; };
+		775ED8D2193BE71C005903BD /* DAGrayscaleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAGrayscaleImageView.m; sourceTree = "<group>"; };
+		775ED8D6193BF08F005903BD /* TestImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestImage@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775ED897193BE67B005903BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775ED8A0193BE67B005903BD /* CoreGraphics.framework in Frameworks */,
+				775ED8A2193BE67B005903BD /* UIKit.framework in Frameworks */,
+				775ED89E193BE67B005903BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775ED891193BE67B005903BD = {
+			isa = PBXGroup;
+			children = (
+				775ED8A3193BE67B005903BD /* DAGrayscaleImage */,
+				775ED89C193BE67B005903BD /* Frameworks */,
+				775ED89B193BE67B005903BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775ED89B193BE67B005903BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775ED89A193BE67B005903BD /* DAGrayscaleImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775ED89C193BE67B005903BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				775ED89D193BE67B005903BD /* Foundation.framework */,
+				775ED89F193BE67B005903BD /* CoreGraphics.framework */,
+				775ED8A1193BE67B005903BD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		775ED8A3193BE67B005903BD /* DAGrayscaleImage */ = {
+			isa = PBXGroup;
+			children = (
+				775ED8D6193BF08F005903BD /* TestImage@2x.png */,
+				775ED8AC193BE67B005903BD /* AppDelegate.h */,
+				775ED8AD193BE67B005903BD /* AppDelegate.m */,
+				775ED8AF193BE67B005903BD /* Images.xcassets */,
+				775ED8A4193BE67B005903BD /* Supporting Files */,
+				775ED8CC193BE6D2005903BD /* TestViewController.h */,
+				775ED8CD193BE6D2005903BD /* TestViewController.m */,
+				775ED8CE193BE6D2005903BD /* TestViewController.xib */,
+				775ED8D1193BE71C005903BD /* DAGrayscaleImageView.h */,
+				775ED8D2193BE71C005903BD /* DAGrayscaleImageView.m */,
+			);
+			path = DAGrayscaleImage;
+			sourceTree = "<group>";
+		};
+		775ED8A4193BE67B005903BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775ED8A5193BE67B005903BD /* DAGrayscaleImage-Info.plist */,
+				775ED8A6193BE67B005903BD /* InfoPlist.strings */,
+				775ED8A9193BE67B005903BD /* main.m */,
+				775ED8AB193BE67B005903BD /* DAGrayscaleImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775ED899193BE67B005903BD /* DAGrayscaleImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775ED8C6193BE67C005903BD /* Build configuration list for PBXNativeTarget "DAGrayscaleImage" */;
+			buildPhases = (
+				775ED896193BE67B005903BD /* Sources */,
+				775ED897193BE67B005903BD /* Frameworks */,
+				775ED898193BE67B005903BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAGrayscaleImage;
+			productName = DAGrayscaleImage;
+			productReference = 775ED89A193BE67B005903BD /* DAGrayscaleImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775ED892193BE67B005903BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dejan;
+			};
+			buildConfigurationList = 775ED895193BE67B005903BD /* Build configuration list for PBXProject "DAGrayscaleImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 775ED891193BE67B005903BD;
+			productRefGroup = 775ED89B193BE67B005903BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775ED899193BE67B005903BD /* DAGrayscaleImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775ED898193BE67B005903BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775ED8A8193BE67B005903BD /* InfoPlist.strings in Resources */,
+				775ED8D7193BF08F005903BD /* TestImage@2x.png in Resources */,
+				775ED8D0193BE6D2005903BD /* TestViewController.xib in Resources */,
+				775ED8B0193BE67B005903BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775ED896193BE67B005903BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775ED8CF193BE6D2005903BD /* TestViewController.m in Sources */,
+				775ED8AE193BE67B005903BD /* AppDelegate.m in Sources */,
+				775ED8D3193BE71C005903BD /* DAGrayscaleImageView.m in Sources */,
+				775ED8AA193BE67B005903BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		775ED8A6193BE67B005903BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775ED8A7193BE67B005903BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775ED8C4193BE67C005903BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		775ED8C5193BE67C005903BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775ED8C7193BE67C005903BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAGrayscaleImage/DAGrayscaleImage-Prefix.pch";
+				INFOPLIST_FILE = "DAGrayscaleImage/DAGrayscaleImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		775ED8C8193BE67C005903BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAGrayscaleImage/DAGrayscaleImage-Prefix.pch";
+				INFOPLIST_FILE = "DAGrayscaleImage/DAGrayscaleImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775ED895193BE67B005903BD /* Build configuration list for PBXProject "DAGrayscaleImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775ED8C4193BE67C005903BD /* Debug */,
+				775ED8C5193BE67C005903BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775ED8C6193BE67C005903BD /* Build configuration list for PBXNativeTarget "DAGrayscaleImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775ED8C7193BE67C005903BD /* Debug */,
+				775ED8C8193BE67C005903BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775ED892193BE67B005903BD /* Project object */;
+}
